@@ -1,0 +1,38 @@
+curl -H"Content-Type: application/json" -XPOST http://user.flux-q.mtvi.com/api/v1/user/uuid/123/MTV/playheadPositions/mgid32 -d '{"offsetMsec": 5000, "lastViewed" : "2014-04-08T11:29:00Z" }'
+
+
+http://user.flux-q.mtvi.com/api/v1
+/user
+/{idType}
+/{idValue}
+/{provider}
+/playheadPositions
+/{mgid}
+
+
+
+curl 
+-H"Content-Type: application/json" 
+-XPOST http://user.flux-q.mtvi.com/api/v1
+/user
+/uuid
+/123
+/MTV
+/playheadPositions
+/mgid32 
+-d '{"offsetMsec": 5000, "lastViewed" : "2014-04-08T11:29:00Z" }'
+
+
+curl -H"Accept: application/json"  http://user.flux-q.mtvi.com/api/v1/user/uuid/123/MTV/playheadPositions/mgid32
+
+curl 
+-H"Accept: application/json"  
+http://user.flux-q.mtvi.com/api/v1/user
+/uuid
+/123
+/MTV
+/playheadPositions
+/mgid32
+
+
+Collection element of type 'NSInteger' (aka 'int') is not an Objective-C object

@@ -21,6 +21,7 @@
 		BEA2130218F5CD5A000F0248 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA212E418F5CD5A000F0248 /* UIKit.framework */; };
 		BEA2130A18F5CD5A000F0248 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEA2130818F5CD5A000F0248 /* InfoPlist.strings */; };
 		BEA2130C18F5CD5A000F0248 /* NSURLSessionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA2130B18F5CD5A000F0248 /* NSURLSessionTestTests.m */; };
+		BECB4FAF18F738720096CA7B /* VMNViewDBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB4FAE18F738720096CA7B /* VMNViewDBRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		BEA2130718F5CD5A000F0248 /* NSURLSessionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSURLSessionTestTests-Info.plist"; sourceTree = "<group>"; };
 		BEA2130918F5CD5A000F0248 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEA2130B18F5CD5A000F0248 /* NSURLSessionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionTestTests.m; sourceTree = "<group>"; };
+		BECB4FAD18F738720096CA7B /* VMNViewDBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMNViewDBRequest.h; sourceTree = "<group>"; };
+		BECB4FAE18F738720096CA7B /* VMNViewDBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMNViewDBRequest.m; sourceTree = "<group>"; };
+		BECB4FB018F739B20096CA7B /* VMNViewDBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMNViewDBConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		BEA212E618F5CD5A000F0248 /* NSURLSessionTest */ = {
 			isa = PBXGroup;
 			children = (
+				BECB4FAD18F738720096CA7B /* VMNViewDBRequest.h */,
+				BECB4FAE18F738720096CA7B /* VMNViewDBRequest.m */,
 				BEA212EF18F5CD5A000F0248 /* AppDelegate.h */,
 				BEA212F018F5CD5A000F0248 /* AppDelegate.m */,
 				BEA212F218F5CD5A000F0248 /* Main.storyboard */,
@@ -119,6 +125,7 @@
 				BEA212F618F5CD5A000F0248 /* ViewController.m */,
 				BEA212F818F5CD5A000F0248 /* Images.xcassets */,
 				BEA212E718F5CD5A000F0248 /* Supporting Files */,
+				BECB4FB018F739B20096CA7B /* VMNViewDBConstants.h */,
 			);
 			path = NSURLSessionTest;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECB4FAF18F738720096CA7B /* VMNViewDBRequest.m in Sources */,
 				BEA212F718F5CD5A000F0248 /* ViewController.m in Sources */,
 				BEA212F118F5CD5A000F0248 /* AppDelegate.m in Sources */,
 				BEA212ED18F5CD5A000F0248 /* main.m in Sources */,
@@ -456,6 +464,7 @@
 				BEA2131118F5CD5A000F0248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEA2131218F5CD5A000F0248 /* Build configuration list for PBXNativeTarget "NSURLSessionTestTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				BEA2131418F5CD5A000F0248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
